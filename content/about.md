@@ -2,8 +2,6 @@
 title: ""
 description: "I am a web developer from Thessaloniki Greece."
 date: "2020-07-17"
-aliases:
-  - "contact"
 author: "Lambros Hatzinikolaou"
 menu:
   about:

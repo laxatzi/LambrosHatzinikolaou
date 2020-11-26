@@ -1,0 +1,51 @@
+<style>
+{{ if eq site.Params.style "dark-without-switcher" }}
+    :root {
+        {{ partial "dark.css" . | safeCSS }}
+    }
+{{ else if eq site.Params.style "auto-without-switcher" }}
+    @media (prefers-color-scheme: dark) {
+        :root {
+            {{ partial "dark.css" . | safeCSS }}
+        }
+        
+    }
+{{else }}
+    [data-theme="dark"] {   
+        {{ partial "dark.css" . | safeCSS }}
+    }
+{{ end }}
+
+:root {
+    --font-color: #1A202C;
+            /* --bg-color: #f8f8f8; */
+            --bg-color: #EDF2F7;
+            --distinct: 	#a0293c;
+             --link-hover-color: #daeaf5;            
+             --link-bg-color: #cfd8e6;
+        }
+
+        :root {
+    --font-color: #003076;
+    --bg-color: #fffbec;
+    --distinct: #1e9c39;
+    --link-bg-color: #539160;
+}
+.pagination {
+    font-weight: bold;
+}
+
+.content p img {
+    border-radius: 50%;
+    padding: 0px;
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+}
+
+/* Header */
+
+h2#latest_posts {
+    color: var(--link-color);
+}
+</style>

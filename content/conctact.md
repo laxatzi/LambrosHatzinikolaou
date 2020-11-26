@@ -3,21 +3,13 @@ title: "Contact me"
 description: "Contact me page"
 date: "2020-02-28"
 author: "Hugo Authors"
-slug: /about/contact
 menu:
-  about:
-    identifier: about
-    name: About
-    title: About
-    url: /about
-    weight: 1
-  subpage:
+  contact:
     identifier: contact
-    parent: about
     name: Contact
     title: Contact
-    url: /about/contact/
-    weight: 11
+    url: /contact
+    weight: 3
     
 ---
 This is a contact form 
