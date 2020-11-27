@@ -83,6 +83,7 @@ h2 {
 h3 {
     font-size: 1.5em;
 }
+
 ::selection {
    
     background: yellow;
@@ -94,7 +95,6 @@ a {
     text-decoration: none;
     font-weight: bold;
     border-bottom: 1px solid var(--font-color);
-
 }
 
 a:hover,
@@ -110,7 +110,7 @@ a:hover {
 a:focus,
 a:active {
     outline: 2px dotted var(--distinct-color);  
-    border-bottom: 0;
+    border: 0;
 }
 
 a:active {
@@ -270,6 +270,10 @@ header nav a:focus {
     border: 3px solid var(--distinct-color);      
     padding: 5px 10px;
 }
+.site-title a:focus,
+.site-title a:active {
+    border: 0;
+}
 
 .common-header {
     padding-bottom: 1.5em;
@@ -281,6 +285,9 @@ header nav a:focus {
 
 .common-header nav a {
     color: var(--font-color);
+}
+.common-header nav a:hover {
+    color: var(--distinct-color);
 }
 
 /* Pages */
