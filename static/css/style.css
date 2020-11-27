@@ -100,9 +100,17 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: var(--distinct-color);
+    color: var(--distinct-color);    
+}
+
+a:hover {
     border-bottom: 1px solid var(--distinct-color);
-    
+}
+
+a:focus,
+a:active {
+    outline: 2px dotted var(--distinct-color);  
+    border-bottom: 0;
 }
 
 a:active {
@@ -203,9 +211,6 @@ header {
     justify-content: space-between;
 }
 
-header a {
-    color: var(--font-color);
-}
 
 header h1 {
     font-size: 1em;
@@ -235,6 +240,20 @@ header nav a {
     font-family: 'Montserrat',sans-serif;
 }
 
+a:focus,
+a:active {
+    outline: 2px dotted var(--distinct-color);  
+    border-bottom: 0;
+}
+header nav a:hover {
+    border-bottom: 1px solid var(--distinct-color);
+    color: var(--distinct-color);
+}
+header nav a:active,
+header nav a:focus {
+    outline: 2px dotted var(--distinct-color);  
+    border-bottom: 0;
+}
 .site-title {
     white-space: nowrap;
 }

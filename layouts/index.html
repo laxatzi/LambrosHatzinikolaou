@@ -239,16 +239,21 @@
                 </div>
             </article>
             <!-- <button type="button" id="scroll_top">Top</button> -->
-            <a href="//localhost:1313" id="scroll_top"><ion-icon size="large" name="arrow-up-outline"></ion-icon></a>
+            <a href="//localhost:1313" id="scroll_top"><span class="sr_only">Back on top of page</span><ion-icon size="large" name="arrow-up-outline"></ion-icon></a>
         </main>
         <footer class="common-footer">
-
+            {{ $languagesCount := $.Site.Home.AllTranslations }}
+            {{ if gt $languagesCount 1 }}
+                {{ partial "languageSelect.html" . }}
+            {{ end }}
+        
             <div class="copyright">
-                <p>Lambros Hatzinikolaou© 2020<br>
-                    Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>.
-                </p>
-            </div>
-
+                <p>Copyright© {{ if isset .Site.Params "author"}}{{ .Site.Params.author }}, {{end}}{{ now.Year }}.<br>
+                {{ i18n "powered" | humanize }} <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a> {{ i18n "theme" }}.
+                </p>  
+            </div> 
+        
+            {{ partial "themeSwitcher.html" . }}    
         </footer>
 
         <!-- container -->

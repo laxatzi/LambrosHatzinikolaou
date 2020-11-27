@@ -8,7 +8,7 @@ googleAnalytics: ''
 author:
   name: 
 params:
-  author: 
+  author: Lambros Hatzinikolaou
   description: My personal blog on web development.
   dateFormat: '2021-01-01'
   paginationSinglePost: true

@@ -13,7 +13,7 @@ menu:
 
 # A few words about myself  
 
-I’m a self-taught web developer living in Thessaloniki, Greece. I specialize in building web applications for small and medium-sized businesses.
+I’m a self-taught web developer living in [Thessaloniki](https://en.wikipedia.org/wiki/Thessaloniki), Greece. I specialize in building web applications for small and medium-sized businesses.
 
 
 {{< figure src="/images/programmer.jpg" title="Me in front of my desktop" >}}
