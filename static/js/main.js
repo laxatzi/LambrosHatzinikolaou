@@ -1,5 +1,7 @@
-const addTwo = function(n){
-	return n+2;
-}
+// bad
+function foo() {return true;}
+if (foo) { bar = 0;}
 
-console.log(addTwo(5)); 
+// good
+function foo() { return true; }
+if (foo) { bar = 0; }

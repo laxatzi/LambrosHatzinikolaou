@@ -35,3 +35,12 @@ console.log(addTwo(5));
 
 ```
 
+#### Code block with Hugo's internal highlight shortcode
+{{< highlight js >}}
+const addTwo = function(n){
+	return n+2;
+}
+
+console.log(addTwo(5));
+{{< /highlight >}}
+

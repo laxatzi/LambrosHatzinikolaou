@@ -39,5 +39,5 @@ markup:
     lineNos: false
     lineNumbersInTable: true
     noClasses: true
-    style: monokai
+    style: Dark
     tabWidth: 4
