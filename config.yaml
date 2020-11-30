@@ -29,6 +29,15 @@ taxonomies:
   category: categories
   tag: tags
 markup:
-  goldmark:
-    renderer:
-      unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
