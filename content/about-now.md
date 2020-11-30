@@ -22,18 +22,19 @@ menu:
 
 Just a subpage of About.
 
-
-
-#### Code block with backticks
-
-```
-const addTwo = function(n){
-	return n+2;
-}
-
-console.log(addTwo(5)); 
-
-```
+#### Code block with Hugo's internal highlight shortcode
+{{< highlight html >}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example HTML5 Document</title>
+</head>
+<body>
+  <p>Test</p>
+</body>
+</html>
+{{< /highlight >}}
 
 #### Code block with Hugo's internal highlight shortcode
 {{< highlight js >}}
@@ -44,3 +45,21 @@ const addTwo = function(n){
 console.log(addTwo(5));
 {{< /highlight >}}
 
+
+#### Code block with Hugo's internal highlight shortcode
+
+{{< highlight css >}}
+.post-tags li {
+    display: inline;
+    margin-right: 1em;
+    /* padding: 5px 7px; */
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-clip: padding-box;
+}
+
+.post-tags li a {
+    color: var(--font-color);
+    font-style: oblique;
+}
+{{< /highlight >}}
