@@ -60,13 +60,13 @@ Writing organizes and clarifies our thoughts. Writing is how we think our way in
 
 &nbsp;
 
-## What others say about me
+<!-- ## What others say about me
 > We have worked with Lambros on several projects and he has always achieved great deliverables within the required time frame. 
 
   Some Client, eShop_Business
 
 
-&nbsp;
+&nbsp; -->
 
 ## Life beyond programming
 When I'm not in front of a computer, coding or/and reading about programming I usually spent time:
@@ -79,8 +79,6 @@ When I'm not in front of a computer, coding or/and reading about programming I u
 From classic  novels and crime fiction to history, whitepapers, and technical guides, reading books is the best way to travel in time, visit distant places, and above all, pick the brain of successful people.
 For me is also the best way to learn programming. 
 
-- __Spending Time With Family:__ blah blah
-- __In good company:__ blah blah 
 - __Going on Excursions:__ blah blah
 
 
