@@ -1,21 +1,7 @@
-/*purple-blue #003076 */
-/* light green #1e9c39 */
-/* pastel green #539160 */
-/* pastel white #fffbec */
-/* light grey ##F5F6FA */
 
-/* Basic */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-/* :root {
-    --font-color: #1A202C;
-          alt color (comment out)   --bg-color: #f8f8f8; 
-            --bg-color: #EDF2F7;
-            --distinct: 	#a0293c;
-             --link-hover-color: #e0e8f1;            
-             --link-bg-color: #cfd8e6;
-        } 
-*/
+
 :root {
     --font-color: #003076;
     --brand-color: #124ba0;
