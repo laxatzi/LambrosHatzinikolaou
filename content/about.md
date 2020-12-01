@@ -1,7 +1,6 @@
 ---
 title: ""
 description: "I am a web developer from Thessaloniki Greece."
-date: "2020-07-17"
 author: "Lambros Hatzinikolaou"
 menu:
   about:
@@ -35,6 +34,7 @@ I didn’t know for sure where this journey would lead me but I was willing to t
 This journey is still in progress and there is a long way to go.
 The idea that I have to push myself being comfortable getting out of my comfort zone makes me feel alive. 
 And my goal is to stay as long as I can in this competitive world where tomorrow is never the same as today.
+
 &nbsp;
 
 ## Why I blog
@@ -43,7 +43,9 @@ There is nothing here that has not been said before, Nor do I have any skill in 
 Thus, my purpose is to solidify my own knowledge of this practice. My hope is that the medium of a blog will allow others to benefit from my Writing to Learn endeavor. 
 
 Writing organizes and clarifies our thoughts. Writing is how we think our way into a subject and make it our own. Writing enables us to find out what we know-and what we don't know-about whatever we're trying to learn. 
+
 &nbsp;
+
 ## My stack
 - __Programming Languages:__ &nbsp; JavaScript, PHP, SQL 
 - __Web Languages:__ &nbsp; HTML5, CSS3, Sass, Markdown
@@ -58,17 +60,14 @@ Writing organizes and clarifies our thoughts. Writing is how we think our way in
 
 &nbsp;
 
-<!-- ## Business domain 
-- __e-Commerce__
-- __Retail__ -->
-
-&nbsp;
 ## What others say about me
 > We have worked with Lambros on several projects and he has always achieved great deliverables within the required time frame. 
 
   Some Client, eShop_Business
 
+
 &nbsp;
+
 ## Life beyond programming
 When I'm not in front of a computer, coding or/and reading about programming I usually spent time:
 
