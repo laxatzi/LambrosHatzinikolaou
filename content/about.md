@@ -74,6 +74,7 @@ From classic  novels and crime fiction to history, whitepapers, and technical gu
 For me is also the best way to learn programming. 
 
 - __Going on Excursions:__ When away from home for more than a few days I get homesick!
+- __Being with family and friends:__ blah blah
 
 
     
