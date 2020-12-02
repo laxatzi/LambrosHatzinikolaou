@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 :root {
     --font-color: #003076;
     --brand-color: #124ba0;
@@ -12,6 +11,8 @@
 
 html {
     font-family:  'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'lora', Georgia, 'Times New Roman', Times, serif;
+
     /* 1 */
     -ms-text-size-adjust: 100%;
     /* 2 */
@@ -56,7 +57,7 @@ main {
 
 /* Headers */
 h1,h2,h3 { 
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'lora', serif;
 }
 h1 {
     font-size: 2.55em;
@@ -222,8 +223,8 @@ header nav a {
     color: var(--font-color);
     text-transform: uppercase;
     letter-spacing: .1rem;
-    font-size: .9em;
-    font-family: 'Montserrat',sans-serif;
+    font-size: 1em;
+    font-family: 'lora',serif;
 }
 
 a:focus,
@@ -557,7 +558,10 @@ ul.language-select > li {
     border: none;
     margin-right: 1em;
 }
-
+.copyright p,
+.copyright a {
+    font-size: .9rem;
+}
 /* Media Queries */
 
 @media (max-width: 840px) {
