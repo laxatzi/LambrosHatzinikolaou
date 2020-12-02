@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "A few words about myself "
 description: "I am a web developer from Thessaloniki Greece."
 author: "Lambros Hatzinikolaou"
 menu:
@@ -9,8 +9,6 @@ menu:
     url: /about
     weight: 1
 ---
-
-# A few words about myself  
 
 I’m a self-taught web developer living in [Thessaloniki](https://en.wikipedia.org/wiki/Thessaloniki), Greece. I specialize in building web applications for small and medium-sized businesses.
 
@@ -35,7 +33,6 @@ This journey is still in progress and there is a long way to go.
 The idea that I have to push myself being comfortable getting out of my comfort zone makes me feel alive. 
 And my goal is to stay as long as I can in this competitive world where tomorrow is never the same as today.
 
-&nbsp;
 
 ## Why I blog
 There is nothing here that has not been said before, Nor do I have any skill in composition. Thus, I have no concern for others and I have composed my text solely to cultivate my own mind. Since my virtue is cultivated, My faith thereby increases in power. Nonetheless, if someone else with an outlook like my own Sees this, it would be meaningful.  
@@ -44,7 +41,6 @@ Thus, my purpose is to solidify my own knowledge of this practice. My hope is th
 
 Writing organizes and clarifies our thoughts. Writing is how we think our way into a subject and make it our own. Writing enables us to find out what we know-and what we don't know-about whatever we're trying to learn. 
 
-&nbsp;
 
 ## My stack
 - __Programming Languages:__ &nbsp; JavaScript, PHP, SQL 
@@ -58,7 +54,6 @@ Writing organizes and clarifies our thoughts. Writing is how we think our way in
 - __Tools:__ &nbsp; Grunt, Npm, VSCode
 - __Version Control:__ &nbsp; Git, Github
 
-&nbsp;
 
 <!-- ## What others say about me
 > We have worked with Lambros on several projects and he has always achieved great deliverables within the required time frame. 
