@@ -453,7 +453,7 @@ article img {
 }
 
 article figcaption {
-    color: var(--distinct-dark-color);
+    color: var(--distinct-color);
     text-align: center;
     font-size: 0.85em;
     margin-bottom: 2em;

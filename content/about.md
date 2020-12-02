@@ -15,11 +15,11 @@ I’m a self-taught web developer living in [Thessaloniki](https://en.wikipedia.
 
 {{< figure src="/images/programmer.jpg" title="Me in front of my desktop" >}}
 
-I came to programming from a non-traditional background. I had worked in sales, manufacturing, the restaurant business, and even had a few odd jobs before I decided to make the leap into web development.
+I came to programming from a non-traditional background. I had worked in sales, in manufacturing, in the restaurant business, and even had a few odd jobs before I decided to make the leap into web development.
 
 This decision didn’t come out of the blue. 
 
-Not feeling fulfilled at work, takes its toll. On an emotional level, at some point, I felt like I hit a wall.
+Not feeling fulfilled at work, takes its toll on an emotional level.
 Programming seemed to be the right candidate to transition from an unfulfilling job to something meaningful. It fits my personality, and strengths.
 More particularly, I love the concept of lifelong learning, to solve puzzles, and being a team player. 
 
@@ -31,7 +31,7 @@ I didn’t know for sure where this journey would lead me but I was willing to t
 
 This journey is still in progress and there is a long way to go.
 The idea that I have to push myself being comfortable getting out of my comfort zone makes me feel alive. 
-And my goal is to stay as long as I can in this competitive world where tomorrow is never the same as today.
+And my goal is to stay as long as I can in this competitive world of continuous learning, where the only constant is change.
 
 
 ## Why I blog
@@ -47,9 +47,10 @@ Writing organizes and clarifies our thoughts. Writing is how we think our way in
 - __Web Languages:__ &nbsp; HTML5, CSS3, Sass, Markdown
 - __Back End Frameworks:__ &nbsp; Node.js, Express
 - __Front End Frameworks:__ &nbsp; React.js 
-- __Databases:__ &nbsp; MongoDB , MySQL 
+- __Databases:__ &nbsp; MongoDB, MySQL 
 - __Methodologies and Techniques:__ &nbsp; Responsive Design, BEM
-- __Static Site Generators:__ &nbsp; Hugo <!-- - __Web Application Frameworks:__ Factor CMS  -->
+- __Static Site Generators:__ &nbsp; Hugo 
+- __Query languages:__ &nbsp; GraphQL
 - __UI Frameworks:__ &nbsp; Bootstrap, jQuery
 - __Tools:__ &nbsp; Grunt, Npm, VSCode
 - __Version Control:__ &nbsp; Git, Github
