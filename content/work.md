@@ -1,5 +1,5 @@
 ---
-title: "My recent work"
+title: "Recent Work"
 description: "Some projects I've recently done."
 date: "2020-02-28"
 author: "Lambros Hatzinikolaou"
