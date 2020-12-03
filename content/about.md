@@ -1,6 +1,6 @@
 ---
 title: "A few words about myself "
-description: "I am a web developer from Thessaloniki Greece."
+description: "Get to know Lambros Hatzinikolaou, a web developer from Thessaloniki Greece."
 author: "Lambros Hatzinikolaou"
 menu:
   about:

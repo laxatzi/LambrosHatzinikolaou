@@ -2,7 +2,8 @@
 title: "Contact me"
 description: "Contact me page"
 date: "2020-02-28"
-author: "Hugo Authors"
+author: "Lambros Hatzinikolaou"
+slug: /about/contact
 menu:
   about:
     identifier: about
@@ -18,4 +19,3 @@ menu:
     url: /about/contact/
     weight: 10
 ---
-This is a contact form 
