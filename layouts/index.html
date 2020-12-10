@@ -1,260 +1,67 @@
-{{ define "main" }}
-<div class="homepage-content">
-    {{ .Content }}
-</div>
-
-{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{ range (.Paginate $pages).Pages }}
-{{ partial "postSummary.html" . }}
-{{ end }}
-{{ partial "pagination.html" . }}
-
-{{ end }}
-
 <!DOCTYPE html>
-<html lang="en-us" data-theme="">
-
+<html lang="en">
 <head>
-    <meta name="generator" content="Hugo 0.73.0" />
-    <script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Soon to come personal website of Web Developer Lambros Hatzinikolaou, based on Thessaloniki, Greece.">
+  <meta name="author" content="Lambros Hatzinikolaou">
+
+  <title>Lambros Hatzinikolaou | Web developer, soon to come website page</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="CSS/construction.css">
+  <!-- fonts for this template -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet"> 
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 
 
-    <meta charset="utf-8">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer-when-downgrade">
-
-    <title>Lambros Hatzinikolaou Website</title>
-    <meta name="description" content="Lambros Hatzinikolaou is a Web Developer from Thessaloniki, Greece! He builds e-commerce as well as Brochure website for small businesses and professionals. ">
-
-    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Lambros Hatzinikolaou" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="/favicon.png">
-    <link rel="stylesheet" href="/css/light.css?rnd=1595426453" />
-    <link rel="stylesheet" href="/css/style.css?rnd=1595426453" />
-    <link rel="stylesheet" href="/css/my.css?rnd=1595426453">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Petrona&display=swap" rel="stylesheet"> 
-    <script src="/js/main.js?rnd=1595426453" type="text/javascript" charset="utf-8"></script>
-
-    <meta property="og:title" content="" />
-    <meta property="og:description" content="" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://lambroshatzinikolaou.netlify.app/" />
-    <meta property="og:image" content="/images/og-featured.png" />
-    <meta property="og:updated_time" content="2019-03-11T00:00:00+00:00" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content="/images/og-featured.png" />
-    <meta name="twitter:title" content="" />
-    <meta name="twitter:description" content="" />
-    <!-- Styles -->
-    
-    <style>
- @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Mono+One&family=Rubik:wght@700&display=swap');
-
-        html {
-            scroll-behavior: smooth;
-        }
-     
-        .pagination {
-            font-weight: bold;
-        }
-
-        .content p img {
-            border-radius: 50%;
-            padding: 0px;
-            width: 160px;
-            height: 160px;
-            line-height: 160px;
-        }
-        
-     
-        .homepage-content h1 {
-            font-size: 2em;
-            margin-top: 5px;
-        }
-        
-      
-      .latest-posts h2 { 
-            color: var(--font-color);
-            font-weight: bold;
-            text-transform: uppercase;  
-            margin-bottom: 10px;
-        }
-        
-        #scroll_top {
-            background-color: var(--distinct-color);
-            color: #fff;
-            border: none;
-            /* border-radius: 50px; */
-            cursor: pointer;
-            line-height: 2.5em;
-            text-align: center;
-            width: 50px;
-            visibility:hidden;
-            bottom: 40px;
-            right: 40px;
-            position:fixed;
-            padding-top: .5em;
-        }
-        .sr_only {
-            position:absolute;
-            left: -10000px;
-            top: auto;
-/* 1px size and hidden overflow technique is useful in instances where positioning may be end-user disabled*/
-            width: 1px;
-            height: 1px;
-            overflow: hidden;
-        }
-        
-@media screen and (max-width: 599.98px) {
-
-        #scroll_top {
-            bottom: 20px;
-            right: 20px;
-            line-height: 1.85em;
-        }
-    } 
-        
-    </style>
 </head>
-
 <body>
-    <a class="skip-main" href="#main">Skip to main content</a>
-    <div class="container">
-        <header class="common-header">
+<!-- overlays -->
+<div class="main_overlay"></div>
 
-            <h1 class="site-title">
-                <a href="https://lambroshatzinikolaou.netlify.app/">LambrosHatzinikolaou</a>
-            </h1>
-            <nav>
-                <a class="" href="/about" title="">About</a>
-                <a class="" href="/posts/" title="">Posts</a>
-            </nav>
-        </header>
-
-        <main id="main" tabindex="-1">
-
-            <div class="homepage-content">
-                <p>Hi!</p>
-                <img src="images/lambros.jpg" alt="">
-                <h1><a href="/about">I'm Lambros.</a></h1>
-                
-                <div class="homepage-content-intro">
-                    <p>I like building stuff with code. This is my personal website where <a href="/post">I write about Web Development</a>,
-                        <a href="/work">my work</a> and my experience as a web developer.</p>
-                   <p>You can look over <a href="https://github.com/laxatzi" target="_blank">my code on Github</a>, and/or
-                    <a href="/about/now">find out what I'm up to now</a>.
-                   </p>
-                   <p>
-                    If you want to talk about anything programming related, have any recommendations, comments, 
-                    want to <a href="/work">work with me</a>, meet up or just say hello, you can <a href="https://twitter.com/home" target="_blank">tweet</a> me, or just send me an 
-                    <a href="/about/contact">email</a>!
-                    </p>
-                </div>
-                
-            </div>
-            <hr>
-            <div class="latest-posts">
-                <h2>My latest posts</h2>
-            </div> 
-        <!-- Articles            -->
-            <article class="post-list">
-                <header class="post-header">
-                    <h3 class="post-title favorite"><a href="/post/markdown-syntax/">Markdown Syntax Guide</a></h3>
-                </header>
-
-                <div class="content post-summary">
-                    <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files,
-                        also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
-                </div>
-                <div class="post-info">
-
-                    <div class="post-date">2019-03-11</div>
-                    <div class="post-taxonomies">
-                        <ul class="post-tags">
-                            <li><a href="/tags/markdown">#markdown</a></li>
-                            <li><a href="/tags/css">#css</a></li>
-                            <li><a href="/tags/html">#html</a></li>
-                            <li><a href="/tags/themes">#themes</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </article>
-
-            <article class="post-list">
-                <header class="post-header">
-                    <h3 class="post-title"><a href="/post/rich-content/">Rich Content</a></h3>
-                </header>
-
-                <div class="content post-summary">
-                    <p>Hugo ships with several <a
-                            href="https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes">Built-in
-                            Shortcodes</a> for rich content, along with a <a
-                            href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple
-                        Shortcodes that enable static and no-JS versions of various social media embeds.</p>
-                </div>
-
-                <div class="post-info">
-                    <div class="post-date">2019-03-10</div>
-                    <div class="post-taxonomies">
-                        <ul class="post-tags">
-                            <li><a href="/tags/shortcodes">#shortcodes</a></li>
-                            <li><a href="/tags/privacy">#privacy</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </article>
-
-            <article class="post-list">
-                <header class="post-header">
-                    <h3 class="post-title"><a href="/post/placeholder-text/">Placeholder Text</a></h3>
-                </header>
-
-                <div class="content post-summary">
-                    <p>Lorem est tota propiore conpellat pectoribus de
-                        pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
-                        subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
-                        caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis
-                        lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
-                </div>
-
-                <div class="post-info">
-                    <div class="post-date">2019-03-09</div>
-                    <div class="post-taxonomies">
-                        <ul class="post-tags">
-                            <li><a href="/tags/markdown">#markdown</a></li>
-                            <li><a href="/tags/text">#text</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </article>
-            <!-- scroll-top -->
-            <a href="https://lambroshatzinikolaou.netlify.app/" id="scroll_top"><span class="sr_only">Back on top of page</span><ion-icon size="large" name="arrow-up-outline"></ion-icon></a>
-        </main>
-        <footer class="common-footer">
-            {{ $languagesCount := $.Site.Home.AllTranslations }}
-            {{ if gt $languagesCount 1 }}
-                {{ partial "languageSelect.html" . }}
-            {{ end }}
+<div class="sec_overlay">
+  <div class="sec_overlay-bg"></div>
+</div>
+<!-- main -->
+<main>
+    <div class="main_content">
+      <h1 class="main_heading">Coming Soon!</h1>
+      <div class="main_pars">
+        <p>We're working hard to finish the development of this site.</p> <p>Our target launch date is
+          <strong>January 2022</strong>!</p>
+        <p> Sign up for updates using the form below!</p>
+      </div>
+      <div class="input_group input_group-newsletter">
+        <input type="email" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="submit-button">
+        <button class="btn btn-secondary" type="button" id="submit-button">Notify Me!</button>
         
-            <div class="copyright">
-                <p>Copyright© {{ if isset .Site.Params "author"}}{{ .Site.Params.author }}, {{end}}{{ now.Year }}.<br>
-                {{ i18n "powered" | humanize }} <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a> {{ i18n "theme" }}.
-                </p>  
-            </div> 
-        
-            {{ partial "themeSwitcher.html" . }}    
-        </footer>
-
-        <!-- container -->
+      </div>
     </div>
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-    <script>const scrollTopBtn=document.getElementById("scroll_top"),rootElem=document.documentElement;function scrollTop(){rootElem.scrollTo({top:0,left:0,behavior:"smooth"})}function scrollTo(o,t,l){const n=o.scrollTopBtn,e=t-n,s=0,c=function(){s+=20;const t=Math.easeInOutQuad(s,n,e,l);o.scrollTop=t,s<l&&setTimeout(c,20)};c()}scrollTopBtn.addEventListener("click",scrollTop),window.onscroll=function(){pageYOffset>=300?scrollTopBtn.style.visibility="visible":scrollTopBtn.style.visibility="hidden"},Math.easeInOutQuad=function(o,t,l,n){return(o/=n/2)<1?l/2*o*o+t:-l/2*(--o*(o-2)-1)+t};</script>
+ 
+    <div class="social-icons">
+      <ul class="list">
+        <li class="list-item">
+          <a href="https://twitter.com/lamprosch">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="https://github.com/laxatzi">
+            <ion-icon name="logo-github"></ion-icon>      
+          </a>
+        </li>
+        <li class="list-item">
+          <a href="https://www.linkedin.com/in/lambros-hadjinikolau-640b90142/">
+            <ion-icon name="logo-linkedin"></ion-icon>      
+          </a>
+        </li>
+      </ul>
+    </div>
+</main>
+  <!-- Bootstrap core JavaScript -->
+
 </body>
+
 </html>
+
