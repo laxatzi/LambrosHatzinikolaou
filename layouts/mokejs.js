@@ -1,8 +1,8 @@
 
-// function(arr){
-//     return somevalue;
-// }
-// let myVariable = 5;
-// const myConstant = 'something';
+function(arr){
+    return somevalue;
+}
+let myVariable = 5;
+const myConstant = 'something';
 
-// console.log(arr); 
+console.log(arr); 
