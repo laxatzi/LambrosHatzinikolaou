@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 :root {
     --font-color: #003076;
@@ -7,10 +6,11 @@
     --bg-color: #fffbec;
     --distinct-color: #1e9c39;
     --distinct-dark-color: #539160;
+    --distinct-color: #9c1e6c;
+
 }
 
 html {
-    font-family:  'Montserrat', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-family: 'lora', Georgia, 'Times New Roman', Times, serif;
 
     /* 1 */
@@ -598,7 +598,6 @@ ul.language-select > li {
     }
 
     header nav {
-        background: var(--pagination-bg-color);
         margin-top: 1em;
         max-width: 100%;
         text-align: center;
