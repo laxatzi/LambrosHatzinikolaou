@@ -148,6 +148,7 @@ main {
   padding: 20px;
   margin-top: 5vh;
   z-index: 3;
+  border:1px solid red;
 }
 
 .main_pars {
@@ -159,11 +160,6 @@ main {
   font-size: 1.8rem;
 }
 
-.input_group-newsletter {
-  display: flex;
-  width: 100%;
-  margin-left: 20px;
-}
 
 /* .input_group-newsletter input {
   height: auto;
