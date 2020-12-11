@@ -147,7 +147,7 @@ main {
   padding: 20px;
   margin-top: 5vh;
   z-index: 3;
-  min-width: 40rem;
+  min-width: 30rem;
 }
 
 .main_pars {
@@ -165,7 +165,7 @@ main {
   margin-left: 20px;
 }
 
-.input_group-newsletter input {
+/* .input_group-newsletter input {
   height: auto;
   font-size: 2rem;
   padding: 1rem;
@@ -181,7 +181,7 @@ main {
   background-color: var(--primary);
   border: 1px solid var(--light);
   color: white;
-}
+} */
 
 .btn-secondary:active,
 .btn-secondary:focus, 
