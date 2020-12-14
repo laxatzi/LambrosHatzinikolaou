@@ -163,24 +163,6 @@ main {
 	font-size: 1.8rem;
 }
 
-/* .input_group-newsletter input {
-  height: auto;
-  font-size: 2rem;
-  padding: 1rem;
-  border: 1px solid var(--light);
-}
-
-.input_group-newsletter button {
-  font-size: 1.6rem;
-  font-weight: var(--normal_font);
-  text-transform: capitalize;
-  letter-spacing: 1px;
-  padding: 1rem;
-  background-color: var(--primary);
-  border: 1px solid var(--light);
-  color: white;
-} */
-
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover {
@@ -221,6 +203,41 @@ main {
 	line-height: 6rem;
 	height: 6rem;
 	width: 6rem;
+}
+
+/* lora-regular - latin */
+@font-face {
+	font-family: "Lora";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/lora-v16-latin-regular.eot"); /* IE9 Compat Modes */
+	src: local(""),
+		url("../fonts/lora-v16-latin-regular.eot?#iefix")
+			format("embedded-opentype"),
+		/* IE6-IE8 */ url("../fonts/lora-v16-latin-regular.woff2") format("woff2"),
+		/* Super Modern Browsers */ url("../fonts/lora-v16-latin-regular.woff")
+			format("woff"),
+		/* Modern Browsers */ url("../fonts/lora-v16-latin-regular.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */ url("../fonts/lora-v16-latin-regular.svg#Lora")
+			format("svg"); /* Legacy iOS */
+}
+
+/* lora-600 - latin */
+@font-face {
+	font-family: "Lora";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../fonts/lora-v16-latin-600.eot"); /* IE9 Compat Modes */
+	src: local(""),
+		url("../fonts/lora-v16-latin-600.eot?#iefix") format("embedded-opentype"),
+		/* IE6-IE8 */ url("../fonts/lora-v16-latin-600.woff2") format("woff2"),
+		/* Super Modern Browsers */ url("../fonts/lora-v16-latin-600.woff")
+			format("woff"),
+		/* Modern Browsers */ url("../fonts/lora-v16-latin-600.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */ url("../fonts/lora-v16-latin-600.svg#Lora")
+			format("svg"); /* Legacy iOS */
 }
 
 @media screen and (min-width: 500px) {
