@@ -31,7 +31,7 @@ body {
 	font-weight: var(--normal_font);
 	line-height: 165%;
 	font-size: 1.65rem;
-	background: var(--primary) url("../images/code_on_screen.jp2") center center
+	background: var(--primary) url("../images/code_on_screen.webp") center center
 		no-repeat;
 	background-size: cover;
 	height: 100%;
